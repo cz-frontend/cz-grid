@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  clear: both;
+  padding: 20px 0;
+}
+.area-bar {
+  display: flex;
+  height: 32px;
+  align-items: center;
+}
+.area-bar .line {
+  width: 4px;
+  height: 16px;
+  background-color: #808080;
+}
+.area-bar .title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 8px;
+}
